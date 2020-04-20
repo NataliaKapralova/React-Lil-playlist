@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+form {
+  font-size: 24px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.Nav {
+  background-color: paleturquoise;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+
+.header {
+  padding-top: 3px;
+  padding-bottom: 10px;
+  background-color: lightblue;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+}
+
+.ListItems {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #eeeeee;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.ListItems div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li:nth-child(odd) {
+  background-color: lightsteelblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AboutPage {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.AboutPage h1 {
+  font-size: 50px;
+  padding-bottom: 50px;
+  background-color: grey;
+  text-align: center;
+}
+
+.AboutPage div {
+  padding-top: 50px;
+  width: 300px;
+  margin: auto;
+}
